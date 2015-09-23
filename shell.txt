@@ -1,0 +1,6 @@
+ghci> :l hw1.hs
+[1 of 1] Compiling Main             ( hw1.hs, interpreted )
+Ok, modules loaded: Main.
+ghci> main
+URYYBMGURERJBEYQMFGNEUNFXRYYMVFMTERNGWNLUNJXFMEHYR
+HELLO THEREWORLD STARHASKELL IS GREATJAYHAWKS RULE

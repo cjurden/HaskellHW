@@ -1,21 +1,15 @@
-import Data.List
-
---a = ['A'..'Z']
---strout = []
-
---f x s= case elemIndex x a of
---	Just n -> s ++ (a!!((n+13) `mod` 26))
-
--- want to map elemindex function accross the input string to get indexes of each element 
---d 
-
---way to do it is go case by case and use pattern matching
-
 main = do
-	putStrLn "enter a string"
-	str <- getLine
-	let d = (cypher str)::String
-	putStrLn d
+
+	let s1 = (cypher "HELLO THERE")::String
+	let s2 = (cypher "WORLD STAR")::String
+	let s3 = (cypher "HASKELL IS GREAT")::String
+	let s4 = (cypher "JAYHAWKS RULE")::String
+	putStrLn (s1 ++ s2 ++ s3 ++ s4)
+	let s5 = (cypher s1)::String  
+	let s6 = (cypher s2)::String 
+	let s7 = (cypher s3)::String 
+	let s8 = (cypher s4)::String 
+	putStrLn (s5 ++ s6 ++ s7 ++ s8)
 
 f x = case x of 
 	'A' -> 1
